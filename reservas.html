@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+    Green Valley Retreat - Reservas
+    Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+    <head>
+        <title>Reservas - Green Valley Retreat</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+
+            <!-- Header -->
+            <header id="header" class="alt">
+                <h1><a href="index.html">Green Valley Retreat</a></h1>
+                <nav id="nav">
+                    <ul>
+                        <li class="special">
+                            <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                            <div id="menu">
+                                <!-- Aquí añadimos el logo en el menú desplegable -->
+                                <div style="text-align: center; padding: 10px;">
+                                    <img src="images/logo.png" alt="Logo de Green Valley Retreat" style="width: 250px;" />
+                                </div>
+                                <ul>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="galeria.html">Galería</a></li>
+                                    <li><a href="reservas.html">Reservas</a></li>
+                                    <li><a href="#">Registrarse</a></li>
+                                    <li><a href="#">Iniciar Sesión</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main -->
+            <article id="main">
+                <header>
+                    <h2>Reservas</h2>
+                    <p>Reserva tu estancia en Green Valley Retreat</p>
+                </header>
+                <section class="wrapper style5">
+                    <div class="inner">
+                        <section>
+                            <h4>Formulario de Reserva</h4>
+                            <form method="post" action="#">
+                                <div class="row gtr-uniform">
+                                    <div class="col-6 col-12-xsmall">
+                                        <input type="text" name="nombre" id="nombre" value="" placeholder="Nombre Completo" required />
+                                    </div>
+                                    <div class="col-6 col-12-xsmall">
+                                        <input type="email" name="email" id="email" value="" placeholder="Correo Electrónico" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <select name="tipo-estancia" id="tipo-estancia" required>
+                                            <option value="">- Selecciona Tipo de Estancia -</option>
+                                            <option value="retiro-bienestar">Retiro de Bienestar</option>
+                                            <option value="escapada-romantica">Escapada Romántica</option>
+                                            <option value="aventura-naturaleza">Aventura en la Naturaleza</option>
+                                            <option value="spa-relax">Estancia en Spa y Relax</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 col-12-xsmall">
+                                        <input type="date" name="fecha-checkin" id="fecha-checkin" placeholder="Fecha de Check-In" required />
+                                    </div>
+                                    <div class="col-6 col-12-xsmall">
+                                        <input type="date" name="fecha-checkout" id="fecha-checkout" placeholder="Fecha de Check-Out" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="mensaje" id="mensaje" placeholder="¿Algún requerimiento especial?" rows="6" required></textarea>
+                                    </div>
+                                    <div class="col-6 col-12-small">
+                                        <input type="checkbox" id="copia" name="copia">
+                                        <label for="copia">Enviarme una copia de la reserva</label>
+                                    </div>
+                                    <div class="col-6 col-12-small">
+                                        <input type="checkbox" id="no-robot" name="no-robot" checked required>
+                                        <label for="no-robot">No soy un robot</label>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul class="actions">
+                                            <li><input type="submit" value="Enviar" class="primary" /></li>
+                                            <li><input type="reset" value="Reiniciar" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </article>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; Green Valley Retreat</li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
